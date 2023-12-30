@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo List</title>
+</head>
+<body>
+    <div id="app">
+        <h1>DeadlineDude</h1>
+        <label for="taskInput">New Task:</label>
+        <input type="text" id="taskInput" placeholder="Enter a new task">
+        <label for="deadlineInput">Deadline:</label>
+        <input type="date" id="deadlineInput">
+        <button onclick="addTask()">Add Task</button>
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
